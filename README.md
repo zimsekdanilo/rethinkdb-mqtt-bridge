@@ -1,10 +1,11 @@
+# RethinkDB MQTT bridge
 This project contains documentation and implementation of MQTT bridge for refhinkDB in python.
 It subscribes to all topics on mqtt broker and saves the data to the database.
 
 The brridge requires connection to MQTT broker and rethinkDB database, installation of those components is described in [Requirements](#Requirements).
 ## installation
 ```
-git clone
+git clone https://github.com/zimsekdanilo/rethinkdb-mqtt-bridge.git
 ```
 ### Initialization of the database and tables
 `python3 MQTTbridge/bridge.py --setup`
